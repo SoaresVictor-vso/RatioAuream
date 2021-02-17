@@ -7,7 +7,7 @@ b.innerText = val
 
 var p1, p2, r;
 
-
+console.log(`allRight`)
 
 function clicar()
 {
@@ -24,3 +24,4 @@ function somar()
     r = p1+p2
     window.document.getElementById('result').innerHTML= `O resultado de ${p1} + ${p2} = <b>${r}</b>.`
 }
+

@@ -1,4 +1,4 @@
-body{
+body#main{
     margin: 0;
     background-color: #101010;
     width: 100%;
@@ -28,3 +28,10 @@ div#div2{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
+
+div#tst{
+    color: #ffffff;
+    text-align: center;
+    font-family: Courier, serif;
+}
+

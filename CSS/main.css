@@ -5,34 +5,43 @@ body{
     font-family: OCR A Std, monospace;
 }
 
-nav{
-    
+main#lim{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header1{
     width: 100%;
-    overflow: auto;
+    height: 60px;
     background-color: #111111;
 }
 
-nav a{
-    padding: 16px 18px;
-    text-align: center;
+.logo{
+    padding-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.redes-sociais ul li{
+    float: right;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.redes-sociais{
+    width: 49%;
+    float: right;
+}
+
+.logo-ra{
+    width: 50%;
     float: left;
-    text-decoration: none;
-    color: #cccccc;
-    font-size: 20px;
-    
 }
 
-nav a:hover{
-    color: #111111;
-    background-color:#909090;
+#ralogo{
+    padding: 5px;
+    width: 82px;
+    height: 50px;
 }
 
-nav a.ativo{
-    color: #111111;
-    background-color: #2C40C6;
-}
-
-nav.pin{
-    position: fixed;
-    top: 0px;
-}

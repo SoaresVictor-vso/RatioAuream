@@ -157,12 +157,11 @@ div#internal{
 h1{
     text-align: center;
     margin: 0px;
-    padding-top: 75px;
+    padding-top: 30px;
     font-size: 50px;
 }
 
 div#using{
-    height: 800px;
     background-image: linear-gradient(-45deg, #c800c8, #00c8c8);
 }
 
@@ -186,20 +185,20 @@ ul.contato{
     margin: 0px;
     padding: 0px;
     padding-top: 20px;
-    width: 49%;
-    float: left;
+    width: 30%;
+    float: right;
 }
 
 ul.projeto{
     margin: 0px;
     padding: 0px;
     padding-top: 20px;
-    width: 49%;
+    width: 30%;
     float: right;
     
 }
 
-.titrdp{
+.titrdp{ /*títulos presentes no rodapé*/
     font-size: 25px;
     font-weight: bold;
     padding-top: 20px;
@@ -226,7 +225,8 @@ ul.projeto{
 }
 
 .rodape{
-    height: 200px;
+   /* height: 200px;*/
+   width: 100%;
 }
 
 #lasttxt{
@@ -235,3 +235,75 @@ ul.projeto{
     color: #ffffff;
 }
 
+#linkup{
+    font-size: 20px; 
+    color: #ffffff; 
+    text-decoration: none;
+    align-self: center;
+}
+
+/* Em telas menores que [1k]*/
+@media screen and (max-width:1000px){
+    main.lim{
+        width: 90%;
+        margin:0 auto;
+    }
+    .menu2 ul li{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .menu2 ul li a{
+        padding-top: 2px;
+        font-size: 0.5em;
+    }
+
+    .h2{
+        height: 40px;
+    }
+
+    ul{
+        margin: 0px;
+    }
+
+    div#sobre{
+        font-size: 18px;
+    }
+
+    #botoes ul li a{
+        font-size: 12px;
+    }
+
+    h1{
+        padding-top: 15px;
+    }
+
+    .howtouse{
+        font-size: 18px;
+    }
+
+    #internal{
+        height: 400px;
+    }
+
+    .projeto li a{
+        font-size: 10px;
+    }
+    
+    .contato li a{
+        font-size: 10px;
+    }
+
+    .titrdp{
+        font-size: 10px; /*títulos presentes no rodapé*/
+    }
+
+    #lasttxt{
+        text-align: center;
+    }
+
+    .rodape{
+        width: 90%;
+    }
+
+}

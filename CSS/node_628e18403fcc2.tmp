@@ -31,12 +31,12 @@ main.lim{
 }
 
 .redes-sociais{
-    width: 49%;
+    width: 32%;
     float: right;
 }
 
 .logo-ra{
-    width: 50%;
+    width: 33%;
     float: left;
 }
 
@@ -97,7 +97,7 @@ div#home{
 div#sobre{
     font-size: 40px;
     text-align: justify;
-    margin-bottom: 20%;
+    height: 755px;
 
     
 }
@@ -106,8 +106,8 @@ div#sobre{
 
 #botoes ul li{
     
-    height: 8%;
-    width: 40%;
+    height: 75px;
+    width: 400px;
     margin: 0;
     list-style: none;
     display: inline-block;
@@ -128,7 +128,7 @@ div#sobre{
 #botoes ul li a{
     color: #00c8c8;
     font-size: 25px;
-    word-break: keep-all;
+    word-break: break-all;
     align-self: center;
     text-decoration: none;
 }
@@ -152,6 +152,8 @@ div#new{
 
 div#internal{
     background-color:#333333;
+    
+    height: 790px;
 }
 
 h1{

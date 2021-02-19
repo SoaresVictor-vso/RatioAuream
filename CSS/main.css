@@ -12,14 +12,14 @@ main.lim{
 
 .header1{
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: #111111;
 }
 
 .logo{
-    padding-top: 10px;
-    width: 40px;
-    height: 40px;
+    padding-top: 28px;
+    width: 25px;
+    height: 25px;
 }
 
 .redes-sociais ul li{
@@ -40,15 +40,18 @@ main.lim{
 }
 
 #ralogo{
-    padding: 5px;
+    padding: 15px;
     width: 82px;
     height: 50px;
 }
 
+
+
+
 .h2{
     
     width: 100%;
-    height: 70px;
+    height: 110px;
     margin: 0px;
     border-bottom: 5px solid #cccccc;
     background-color: #808080;
@@ -59,7 +62,9 @@ main.lim{
 
 
 
+
 .menu2 ul li{
+    padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     display: inline-block;
@@ -72,7 +77,7 @@ main.lim{
 }
 .menu2 ul li :hover{
     padding: 0px;
-    padding-bottom: 17px;
+    padding-bottom: 42px;
     border-bottom: 5px solid #00ffff;
 }
 
@@ -82,4 +87,87 @@ main.lim{
 
 
 
+div#home{
+    margin: 0 auto;
+    background-color: #333333;
+    overflow-x: hidden;
+}
+
+div#sobre{
+    font-size: 40px;
+    text-align: justify;
+    height: 755px;
+
+    
+}
+
+
+
+#botoes ul li{
+    
+    height: 75px;
+    width: 400px;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    background-color: #303030;
+    padding: 0;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 5px 5px;
+    border-radius: 20px;
+    
+    
+}
+
+#botoes ul li :hover{
+    color:#c800c8;
+}
+
+#botoes ul li a{
+    color: #00c8c8;
+    font-size: 25px;
+    word-break: break-all;
+    align-self: center;
+    text-decoration: none;
+}
+#botoes ul li a p{
+    text-align: center;
+}
+
+hr{
+    margin: 0px;
+    height: 5px;
+    color-adjust: #00000000;
+    border: 0px;
+}
+
+
+
+
+div#new{
+    background-image: linear-gradient(45deg, #00c8c8, #c800c8);
+}
+
+div#internal{
+    background-color:#333333;
+    
+    height: 790px;
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+}
+
+div#using{
+    height: 800px;
+    background-image: linear-gradient(-45deg, #c800c8, #00c8c8);
+}
+
+.howtouse{
+    font-size: 25px;
+    background-color: #111111;
+}
 

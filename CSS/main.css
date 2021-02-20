@@ -240,7 +240,21 @@ ul.projeto{
     color: #ffffff; 
     text-decoration: none;
     align-self: center;
+    background-color: #202020;
 }
+
+
+p.txt{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+div.bg-blue-pink{
+    background-image: linear-gradient(45deg, #c800c8, #00c8c8);
+}
+
 
 /* Em telas menores que [1k]*/
 @media screen and (max-width:1000px){
@@ -276,6 +290,10 @@ ul.projeto{
 
     h1{
         padding-top: 15px;
+    }
+
+    h1.title{
+        font-size: 25px;
     }
 
     .howtouse{

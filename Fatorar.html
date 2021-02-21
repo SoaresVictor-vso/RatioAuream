@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RatioAuream</title>
+    <title>Algoritmo de fatoração</title>
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/common.css">
 </head>
 
 
@@ -34,62 +35,47 @@
         </main>
     </header>
 
-
-    <div class="h2"><!--segundo menu--> 
+    <div class="bg-blue-pink">
+        <hr>
         <main class="lim">
-            <div class="menu2">
-                <ul>
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#sobre">SOBRE</a></li>
-                    <li><a href="#new">NOVIDADES</a></li>
-                    <li><a href="#using">COMO USAR</a></li>
-                </ul>
+            <div class="internal">
+                <a href="#algoritmo"><h4>Ir direto para o algoritmo</h4></a>
+
+                
+                <h1 style="margin: 5px;">Fatoração</h1>
+                <h2>Resumo</h2>
+                <p>Cada número inteiro pode ser escrito como a multiplicação de números primos(fatores). Para todo <strong>n</strong> inteiro existe uma única forma de escrevê-lo fatorado.</p>
+                <p>As Aplicações para a fatoração são inúmeras: desde encontrar maior divisor comum (MDC) a facilitar nos cálculos de raizes, portanto este é o primeiro algoritmo criado para este projeto, tendo em vista as possibilidades que ele abre.</p>
+
+                
+                
+                <h2 style="color: #c800c8;">Atenção!</h2>
+                <p>Recomendamos fortemente que você não utilize esta ferramenta como forma de obter respostas de atividades. Use-a apenas como correção para exercícios ou em atividades não acadêmicas, já que resolver por si mesmo os exercícios é fundamental para a memorização do conteúdo.</p>
+
+                <h2 id="algoritmo"> Algoritmo</h2>
+
+                <div>
+                    <p class="center">Insira aqui o valor a ser fatorado:</p> 
+                    <div>
+                        <input class="conf1" id="patinho" type="number"> 
+                    </div>
+                    <p class="center" style="padding-top: 10px;"><br><small>apenas números inteiros</small> </p>
+                    <input id="calc" class="conf1" type="button" value="Calcular" >
+
+                    
+                    <p style="padding-top: 30px;" class="center" id=resultado> res</p>
+                    <p class="center" id="desenv" > ...</p>
+                </div>
+                <p style="font-size: 10px;"> SoaresVictor-vso, Feb 21 - 2021 <br> Em caso de erro por favor entre em contato conosco. <br> números muito grandes (geralmente com mais de 10 dígitos) podem demorar para serem calculados e o navegador poderá exibir uma pop-up dizendo que o site parou. <br> Todos os códigos deste site se encontram em um repositório no GitHub.</p>
             </div>
-        </main>
-    </div>
-
-    <div class="corpo"> <!--corpo do site-->
-        <div id="home"> <!-- Home com uma imagem R.A.-->
-            <img style="width: 100%;" src="IMG/RatioAureamh800.png" alt="RatioAuream">
-        </div>
-
-        <main class="lim"><!--Sobre_ Explicando o projeto-->
-            <div id="sobre">
-                <p> <strong>RatioAuream</strong> é um projeto desenvolvido com o intuito de criar uma ferramenta de código aberto capaz de fazer cálculos comuns em exercícios do ensino fundamental e médio do Brasil, possibilitando assim que alunos possam realizar seus exercícios e após isso, os corrigir de forma automática e gratuita, e, no caso de eventuais erros, descobrir em qual etapa de seus cálculos cometeu a falha e aprender melhor dessa forma.
-                </p>
-                <div id="botoes">
-                    <ul style="padding-left: 50px; padding-top: 10px; padding-right: 50px;">
-                        <li style="float: left;"> <a href="Desenvolvedor.html"><p>Sobre o desenvolvedor</p></a> </li>
-                        <li style="float: right;"> <a href="calculadoras.html"><p>Lista de calculadoras</p></a></li>
-                    </ul>
-                </div>
-            </div> 
             
+            
+            <hr>
 
+    
         </main>
-
-        <div id="new"><!--Local dedicado às novas adiçoes do site-->
-            <main class="lim">
-                <hr>
-                <div class="internal">
-                    <h1>Novidades!</h1>
-                </div>
-                <hr>
-            </main>
-        </div>
-
-        <div id="using"> <!-- Como usar o site-->
-            <main class="lim">
-                <h1 style="color: #ffffff;">COMO USAR?</h1>
-                <p class="howtouse">Este site foi desenvolvido de forma a tornar seu uso simples e intuitivo para qualquer pessoa.</p>
-                <p class="howtouse">Ainda assim, disponibilizamos na página de cada código um botão que leva a outra página explicando a forma de uso daquela ferramenta.</p>
-                <p class="howtouse">Caso você continue com dúvidas, pode <a id="cttig" href="https://instagram.com/soares_victor_479">entrar em contato</a> com o desenvolvedor deste site por meio do Instagram. Ele explicará a forma de uso quantas vezes for necessário!</p>
-            </main>
-        </div>
-
-        
-
     </div>
+    
 
     <footer><!-- Rodapé-->
         <main class="lim">
@@ -131,6 +117,6 @@
     
    
 
-    <script src="JS/main.js"></script>
+    <script src="JS/fatorar.js"></script>
+
 </body>
-</html>

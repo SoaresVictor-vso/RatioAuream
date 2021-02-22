@@ -144,7 +144,11 @@ hr{
 }
 
 
-
+h2.t2list{
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left:20px;
+}
 
 div#new{
     background-image: linear-gradient(45deg, #00c8c8, #c800c8);
@@ -243,6 +247,13 @@ ul.projeto{
     background-color: #202020;
 }
 
+.nodec{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
 
 p.txt{
     font-size: 20px;
@@ -255,6 +266,18 @@ div.bg-blue-pink{
     background-image: linear-gradient(45deg, #c800c8, #00c8c8);
 }
 
+a.but{
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    left: 40%;
+    background-color: #c800c8;
+    text-decoration: none;
+    color: #c8c8c8;
+    border-radius: 20px;
+    text-align: center;
+    
+}
 
 /* Em telas menores que [1k]*/
 @media screen and (max-width:1000px){
